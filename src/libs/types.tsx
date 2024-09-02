@@ -20,6 +20,12 @@ export interface movieIdPageParams {
   };
 }
 
+export interface searchInputParams {
+  params: {
+    searchInput: string;
+  };
+}
+
 export interface footerProps {
   // define props list here
 }
